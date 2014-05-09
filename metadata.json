@@ -25,7 +25,7 @@
   "recommendations": {
   },
   "name": "backup-manager",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "attributes": {
   },
   "description": "Installs/Configures backup-manager",
