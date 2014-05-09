@@ -1,5 +1,8 @@
 backup-manager Cookbook
 ================
+[![Build Status](https://travis-ci.org/indigo423/backup-manager.svg)](https://travis-ci.org/indigo423/backup-manager)
+
+[travis]: https://travis-ci.org/indigo423/backup-opennms
 
 This cookbook help you to setup backup-manager.
 
