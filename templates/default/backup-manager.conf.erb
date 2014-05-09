@@ -140,7 +140,7 @@ export BM_TARBALL_DUMPSYMLINKS="<%= node['backup_manager']['tarball_dumpsymlinks
 # NOTE: The Debian package will only update BM_TARBALL_DIRECTORIES
 
 # Paths without spaces in their name:
-export BM_TARBALL_DIRECTORIES="<%= node['backup_manager']['local_folder'].join(" ") %>"
+export BM_TARBALL_DIRECTORIES="<%= node['backup_manager']['tarball_directories'].join(" ") %>"
 
 # If one or more of the targets contain a space, use the array:
 # declare -a BM_TARBALL_TARGETS

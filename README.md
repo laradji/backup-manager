@@ -172,7 +172,7 @@ The default configuration installs `backup-manager` from the distribution provid
   <tr>
     <td><tt>['backup_manager']['tarball_over_ssh']</tt></td>
     <td>Boolean</td>
-    <td>You can choose to build archives remotely over SSH. You will then need to fill the <tt>upload_ssh</tt> variables (<tt>upload_ssh_hosts</tt>, <tt>upload_ssh_user</tt>, <tt>upload_ssh_key</tt>). If this boolean is set to true, archive will be saved locally (in <tt>repository_root</tt> but will be built by the remote host). Thus, <tt>local_folder</tt> will be used to backup remote directories. Those archive will be prefixed with the remote host name.</td>
+    <td>You can choose to build archives remotely over SSH. You will then need to fill the <tt>upload_ssh</tt> variables (<tt>upload_ssh_hosts</tt>, <tt>upload_ssh_user</tt>, <tt>upload_ssh_key</tt>). If this boolean is set to true, archive will be saved locally (in <tt>repository_root</tt> but will be built by the remote host). Thus, <tt>tarball_directories</tt> will be used to backup remote directories. Those archive will be prefixed with the remote host name.</td>
     <td><tt>false</tt></td>
   </tr>
   <tr>
@@ -182,7 +182,7 @@ The default configuration installs `backup-manager` from the distribution provid
     <td><tt>false</tt></td>
   </tr>
   <tr>
-    <td><tt>['backup_manager']['local_folder']</tt></td>
+    <td><tt>['backup_manager']['tarball_directories']</tt></td>
     <td>Array</td>
     <td>Paths without spaces in their name. Atttention: It is not possible to put in paths with apsces!</td>
     <td><tt>/etc /home</tt></td>
