@@ -553,25 +553,25 @@ The default configuration installs `backup-manager` from the distribution provid
   <tr>
     <td><tt>['backup_manager']['cron_minute']</tt></td>
     <td>String</td>
-    <td>Use the con syntax to set the minutes, default : </td>
+    <td>Use the con syntax to set the minutes </td>
     <td>*</td>
   </tr>
   <tr>
     <td><tt>['backup_manager']['cron_hour']</tt></td>
     <td>String</td>
-    <td>Use the con syntax to set the minutes, default : </td>
+    <td>Use the con syntax to set the minutes </td>
     <td>*</td>
   </tr>
   <tr>
     <td><tt>['backup_manager']['cron_day']</tt></td>
     <td>String</td>
-    <td>Use the con syntax to set the minutes, default : </td>
+    <td>Use the con syntax to set the minutes </td>
     <td>*</td>
   </tr>
   <tr>
     <td><tt>['backup_manager']['cron_month']</tt></td>
     <td>String</td>
-    <td>Use the con syntax to set the minutes, default : </td>
+    <td>Use the con syntax to set the minutes </td>
     <td>*</td>
   </tr>
   <tr>
@@ -583,7 +583,7 @@ The default configuration installs `backup-manager` from the distribution provid
   <tr>
     <td><tt>['backup_manager']['upload_burning_maxsize']</tt></td>
     <td>Integer</td>
-    <td>Use the con syntax to set the minutes, default : </td>
+    <td>Use the con syntax to set the minutes </td>
     <td>*</td>
   </tr>
 </table>
