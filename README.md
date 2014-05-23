@@ -542,6 +542,52 @@ The default configuration installs `backup-manager` from the distribution provid
   </tr>
 </table>
 
+#### CRON
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Default</th>
+  </tr>
+  <tr>
+    <td><tt>['backup_manager']['cron_minute']</tt></td>
+    <td>String</td>
+    <td>Use the con syntax to set the minutes, default : </td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td><tt>['backup_manager']['cron_hour']</tt></td>
+    <td>String</td>
+    <td>Use the con syntax to set the minutes, default : </td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td><tt>['backup_manager']['cron_day']</tt></td>
+    <td>String</td>
+    <td>Use the con syntax to set the minutes, default : </td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td><tt>['backup_manager']['cron_month']</tt></td>
+    <td>String</td>
+    <td>Use the con syntax to set the minutes, default : </td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td><tt>['backup_manager']['cron_week']</tt></td>
+    <td>String</td>
+    <td>Use the con syntax to set the minutes, default : </td>
+    <td>*</td>
+  </tr>
+  <tr>
+    <td><tt>['backup_manager']['upload_burning_maxsize']</tt></td>
+    <td>Integer</td>
+    <td>Use the con syntax to set the minutes, default : </td>
+    <td>*</td>
+  </tr>
+</table>
+
 #### Advanced settings, use this with care
 <table>
   <tr>
@@ -608,6 +654,6 @@ Contributing
 
 License and Authors
 -------------------
-Authors: 
+Authors:
 - Nacer Laradji https://github.com/laradji
 - Ronny Tromer https://github.com/indigo423
