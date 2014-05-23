@@ -577,7 +577,7 @@ The default configuration installs `backup-manager` from the distribution provid
   <tr>
     <td><tt>['backup_manager']['cron_week']</tt></td>
     <td>String</td>
-    <td>Use the con syntax to set the minutes, default : </td>
+    <td>Use the con syntax to set the minutes </td>
     <td>*</td>
   </tr>
   <tr>
