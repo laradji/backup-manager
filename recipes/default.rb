@@ -16,8 +16,11 @@ end
 # Creating cron entries
 
 cron "backup-manager" do
-  minute "30"
-  hour "8"
+  minute node.backup_manager.cron_minute
+  hour node.backup_manager.cron_hour
+  day node.backup_manager.cron_day
+  month node.backup_manager.cron_month
+  weekday node.backup_manager.cron_weekday
   path "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/X11R6/bin"
   command "backup-manager >> /dev/null 2>&1"
 end
