@@ -543,6 +543,7 @@ The default configuration installs `backup-manager` from the distribution provid
 </table>
 
 #### CRON
+We will cron the job at midnight by default.
 <table>
   <tr>
     <th>Key</th>
@@ -553,37 +554,31 @@ The default configuration installs `backup-manager` from the distribution provid
   <tr>
     <td><tt>['backup_manager']['cron_minute']</tt></td>
     <td>String</td>
-    <td>Use the cron syntax to set the minutes </td>
-    <td>*</td>
+    <td>Use the con syntax to set the minutes </td>
+    <td>0</td>
   </tr>
   <tr>
     <td><tt>['backup_manager']['cron_hour']</tt></td>
     <td>String</td>
-    <td>Use the cron syntax to set the minutes </td>
-    <td>*</td>
+    <td>Use the con syntax to set the minutes </td>
+    <td>0</td>
   </tr>
   <tr>
     <td><tt>['backup_manager']['cron_day']</tt></td>
     <td>String</td>
-    <td>Use the cron syntax to set the minutes </td>
+    <td>Use the con syntax to set the day </td>
     <td>*</td>
   </tr>
   <tr>
     <td><tt>['backup_manager']['cron_month']</tt></td>
     <td>String</td>
-    <td>Use the cron syntax to set the minutes </td>
+    <td>Use the con syntax to set the month </td>
     <td>*</td>
   </tr>
   <tr>
     <td><tt>['backup_manager']['cron_week']</tt></td>
     <td>String</td>
-    <td>Use the cron syntax to set the minutes </td>
-    <td>*</td>
-  </tr>
-  <tr>
-    <td><tt>['backup_manager']['upload_burning_maxsize']</tt></td>
-    <td>Integer</td>
-    <td>Use the cron syntax to set the minutes </td>
+    <td>Use the con syntax to set the week</td>
     <td>*</td>
   </tr>
 </table>
