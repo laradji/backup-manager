@@ -191,7 +191,7 @@ export BM_TARBALLINC_MASTERDATEVALUE="<%= node['backup_manager']['tarballinc_mas
 # Enter here the list of databases to backup.
 # Wildcard: __ALL__ (will dump all the databases in one archive)
 # export BM_MYSQL_DATABASES="__ALL__"
-LIST="$(mysql -u root -p<%= node['backup_manager']['mysql_adminpass']%> -Bse 'show databases')"
+LIST="$(mysql -h '<%= node['backup_manager']['mysql_host'] %>' -u root -p<%= node['backup_manager']['mysql_adminpass']%> -Bse 'show databases')"
 LISTDB="${LIST[*]}"
 export BM_MYSQL_DATABASES=<%= node['backup_manager']['mysql_databases'] %>
 
